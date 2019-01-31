@@ -1,0 +1,27 @@
+#messages {
+  height: 50px;
+  line-height: 50px;
+  width: 440px;
+  background-color: lavender;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'Signika Negative';
+  font-size: 24px;
+}
+
+.player0, .player1, .player2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 5px 5px 5px 5px;
+  display: inline-block;
+}
+
+.player1 {
+  background-color: crimson;
+}
+
+.player2 {
+  background-color: gold;
+}
