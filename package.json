@@ -5,18 +5,19 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack -d --watch",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktseto/skeleton.git"
+    "url": "git+https://github.com/ktseto/connect4.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ktseto/skeleton/issues"
+    "url": "https://github.com/ktseto/connect4/issues"
   },
-  "homepage": "https://github.com/ktseto/skeleton#readme",
+  "homepage": "https://github.com/ktseto/connect4",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
@@ -36,6 +37,7 @@
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
+    "gh-pages": "^2.0.1",
     "identity-obj-proxy": "^3.0.0",
     "iso-morphic-style-loader": "^2.0.1",
     "jest": "^24.0.0",
